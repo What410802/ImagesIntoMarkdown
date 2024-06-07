@@ -1,6 +1,6 @@
 import os
 
-TempPath=r'D:\BiShaokang410802\_Temp'
+TempPath=r'...' #Your destination path
 TempFile=os.path.join(TempPath,'_Temp.md')
 Help='''Command:
 name, iname, ctime, mtime; named, ... : Sort source Files according to file name, the integar in file name, created time, or modified time. 'd' signals descending. 
